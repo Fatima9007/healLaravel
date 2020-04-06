@@ -20,7 +20,7 @@
     </header>
       <br>
 
-      <!-- Image and text -->
+      <!-- barra denavegacion -->
       
             
             <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-top">
@@ -34,6 +34,7 @@
                   <li class="nav-item active"><a class="nav-link" href="#3">Empresa Netzasoft</a></li>
                 
                 </ul>
+                
                 <span class="navbar-text"> 
                 <div class="flex-center position-ref full-height">
                 @if (Route::has('login'))

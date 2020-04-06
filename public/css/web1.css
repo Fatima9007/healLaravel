@@ -3,16 +3,35 @@
 body{
     background-color: #fafafa;
 }
-
-.navbar-top {
-    background-color: #06407a !important;
+.navbar{
+  background-color: #17bad6 !important;
+  color: #fafafa;
+}
+.navbar a{
+ 
+  color: #fafafa;
 }
 
-.navbar-top a{
-    color: #fafafa !important;
+.dropdown-menu{
+  background-color: rgba(101, 101, 173, 0.801);
+  
 }
-.nav-item  a:hover{
-    color: #ff4a13 ;
+.dropdown-item {
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529 !important;
+  text-align: inherit;
+  background-color:rgba(101, 101, 173, 0.801);
+  border: 0;
+}
+
+.navbar-collapse a{
+  color: #ffffff !important;
+}
+.nav-item a{
+    color: #f5f5f5 ;
 }
 .titulo{
     font-family: 'Libre Caslon Text', serif;
@@ -103,6 +122,6 @@ body {
   color: #212529 !important;
   text-align: inherit;
   
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   border: 0;
 }

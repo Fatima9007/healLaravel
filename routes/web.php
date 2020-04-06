@@ -14,15 +14,27 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('hola');
 });
 
 Route::get('hola', function () {
     return view('hola');
 });
 
+Route::get('plantilla', function () {
+    return view('layouts/plantilla');
+});
 
+Route::get('perfil', function () {
+    return view('perfil');
+});
+Route::get('new', function () {
+    return view('Nuevo_Paciente');
+});
 
+Route::get('web', function () {
+    return view('web');
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
