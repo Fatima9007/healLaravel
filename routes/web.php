@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('hola');
-});
+Route::get('/', 'Page_Controller@inicio');
 
 Route::get('hola', function () {
     return view('hola');
@@ -32,9 +30,9 @@ Route::get('new', function () {
     return view('Nuevo_Paciente');
 });
 
-Route::get('web', function () {
-    return view('web');
+Route::get('lista', function () {
+    return view('Lista_Paciente');
 });
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('perfil');
