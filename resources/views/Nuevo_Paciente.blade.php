@@ -1,4 +1,4 @@
-@extends('web')
+@extends('layouts.web')
 
 @section('content')
 <div class="container">

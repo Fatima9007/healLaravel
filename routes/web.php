@@ -15,24 +15,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'Page_Controller@inicio');
 
-Route::get('hola', function () {
-    return view('hola');
-});
 
-Route::get('plantilla', function () {
-    return view('layouts/plantilla');
-});
+Route::get('perfil', 'Page_Controller@perfil');
 
-Route::get('perfil', function () {
-    return view('perfil');
-});
-Route::get('new', function () {
-    return view('Nuevo_Paciente');
-});
+Route::get('new', 'Page_Controller@Nuevo');
 
-Route::get('lista', function () {
-    return view('Lista_Paciente');
-});
+Route::get('lista','Page_Controller@Lista');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('perfil');
