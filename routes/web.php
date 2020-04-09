@@ -22,6 +22,10 @@ Route::get('new', 'Page_Controller@Nuevo');
 
 Route::get('lista','Page_Controller@Lista');
 
+Route::get('index', 'Usuario1Controller@index');
+
+Route::get('create', 'Usuario1Controller@create');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('perfil');

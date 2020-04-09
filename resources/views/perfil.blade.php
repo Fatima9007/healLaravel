@@ -63,6 +63,8 @@
                 </tr>
             </tbody>
         </table>
+        <td><button type="button" class="btn btn-primary">Editar</button></td>
     </div>
+
     </center>
 @endsection

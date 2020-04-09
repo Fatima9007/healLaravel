@@ -23,6 +23,12 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('perfil');
+    }
+    public function Nuevo(){
+        return view('Nuevo_Paciente');
+    }
+    public function Lista(){
+        return view('Lista_paciente');
     }
 }

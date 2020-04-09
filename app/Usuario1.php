@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Antecedente extends Model
+class Usuario1 extends Model
 {
     //
 }
