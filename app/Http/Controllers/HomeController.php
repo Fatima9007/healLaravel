@@ -23,7 +23,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('perfil');
+        return view('usuario.create');
     }
     public function Nuevo(){
         return view('Nuevo_Paciente');
