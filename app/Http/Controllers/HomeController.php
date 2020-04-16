@@ -23,7 +23,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('usuario.create');
+        return view('Principal');
     }
     public function Nuevo(){
         return view('Nuevo_Paciente');
@@ -31,4 +31,8 @@ class HomeController extends Controller
     public function Lista(){
         return view('Lista_paciente');
     }
+    public function Perfil(){
+        return view('perfil');
+    }
+
 }

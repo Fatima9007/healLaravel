@@ -18,48 +18,48 @@
             <tbody>
                 <tr>
                     <th scope="row">Cedula</th>
-                    <td></td>
+                    <td>{{ auth()->user()->Cedula}}</td>
                 </tr>
 
                 <tr>
                     <th scope="row">Nombre (s)</th>
-                    <td></td>
+                    <td>{{ auth()->user()->name}}</td>
                     
                 </tr>
 
                 <tr>
                     <th scope="row">Apellido Paterno</th>
-                    <td></td>
+                    <td>{{ auth()->user()->Apellido_Paterno}}</td>
          
                 </tr>
         
                 <tr>
                     <th scope="row">Apellido Materno</th>
-                    <td></td>
+                    <td>{{ auth()->user()->Apellido_Materno}}</td>
                 </tr>
 
                 <tr>
                     <th scope="row">Especialidad</th>
-                    <td></td>
+                    <td>{{ auth()->user()->Especialidad}}</td>
                 </tr>
 
                 <tr>
                     <th scope="row">Especialidad  Adicional</th>
-                    <td></td>
+                    <td>{{ auth()->user()->Especialidad_Adicional}}</td>
                 </tr>
 
                 <tr>
                     <th scope="row">Clinica</th>
-                    <td></td>
+                    <td>{{ auth()->user()->Clinica}}</td>
                 </tr>
                 <tr>
                     <th scope="row">Núm. Telefónico</th>
-                    <td></td>
+                    <td>{{ auth()->user()->Num_Telefonico}}</td>
                 </tr>
 
                 <tr>
                     <th scope="row">E-Mail</th>
-                    <td></td>
+                    <td>{{ auth()->user()->email}}</td>
                 </tr>
             </tbody>
         </table>
