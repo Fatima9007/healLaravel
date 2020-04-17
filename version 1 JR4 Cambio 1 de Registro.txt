@@ -1,0 +1,5 @@
+1-De la version 3.1 de fatima se realizaron las siguientes modificaciones
+    1.1-Se modifilo el modelo user, agregando el nombre de los campos que se deberia de agregar de los terapeutas, respetando los que por defecto tienen
+    1.2-El controlador se modifico agregando los campos faltates del terapeutas
+    1.3-Se midifica la migracion de user agregando los campos
+    1.4-modificamos la vista del regristo agrando los demas cambios

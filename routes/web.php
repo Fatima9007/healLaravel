@@ -28,5 +28,7 @@ Route::resource('Usuario', 'UsuarioController');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('usuario.create');
+Route::get('/dashboard', 'HomeController@index')->name('usuario.create');
 Route::resource('Usuario', 'UsuarioController');
+
+Route::get('Perfil', 'HomeController@Perfil')->name('Perfil');

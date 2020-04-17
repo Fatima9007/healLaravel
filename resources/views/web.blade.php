@@ -33,7 +33,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         
-                        <li class="nav-item active"><a class="nav-link" href="#2">Perfil</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="Perfil">Perfil</a></li>
                         <li class="nav-item active"><a class="nav-link" href="#3">Nuevo paciente</a></li>
                         <li class="nav-item active"><a class="nav-link" href="#2">Lista de pacientes</a></li>
                         
